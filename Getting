@@ -1,0 +1,14 @@
+#!bin/bash
+echo "Enter number,  Input should be Y or y or N or n"
+
+read x
+ if [ "$x" == "y" ]
+ then
+  echo "YES"
+ elif [  "$x" == "Y"  ]
+ then
+    echo "YES"
+ else 
+    echo "NO"
+  fi
+
